@@ -5,7 +5,7 @@ import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
 import Navbar from "../Component/Navbar";
 import "react-image-gallery/styles/css/image-gallery.css";
-
+import Footer from "../Component/footer"
 function SellerProfile() {
   const [showDec, setShowDec] = useState(true);
   const [showComment, setComment] = useState(false);
@@ -88,7 +88,6 @@ function SellerProfile() {
                   </div>
                   <div className="price mb-4 mt-1">
                     <h3> Rs.1,400/- </h3>
-                    <button className="freeadsbtn quality">Used/Perfect</button>
                   </div>
                 </div>
                 <div className="details-sec mt-3 ">
@@ -213,41 +212,7 @@ function SellerProfile() {
             </div>
           </div>
           <div className="user-map-sec">
-            <div className="user-details-sec ">
-              <div className="seller-details px-1">
-                <text>Seller details</text>
-                <div className="seller-profile-brief">
-                  <div className="user-img mt-4">
-                    <img
-                      src="https://dragonball.guru/wp-content/uploads/2021/01/goku-dragon-ball-guru.jpg"
-                      alt=".user"
-                    />
-                  </div>
-
-                  <div className="profile-brief">
-                    <a href="seller-profile">
-                      <h4>Aabid</h4>
-                    </a>
-
-                    <text className="member-since">Member since May 2021</text>
-                    <text className="last-active ">
-                      <div className="dot"></div>
-                      Active 34m ago
-                    </text>
-                  </div>
-                </div>
-                <div className="call-seller-btn">
-                  <button className="freeadsbtn call-seller-green-btn">
-                    Call Seller
-                  </button>
-
-                  
-                </div>
-                <div className="view-seller-ads-link">
-                  <Nav.Link>view seller all ads (0)</Nav.Link>
-                </div>
-              </div>
-            </div>
+            
             <div className="loc-map-sec ">
               <div className="location-text">
                 <h4>Location</h4>
@@ -261,7 +226,7 @@ function SellerProfile() {
         </div>
       </Container>
       
-      
+      <Footer />
     </>
   );
 }
