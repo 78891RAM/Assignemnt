@@ -1,0 +1,74 @@
+.Category-container{
+    width:300px;
+    margin-left: 50px;
+}
+.top-category{
+    width:100%;
+    background-color:black;
+    height:60px;
+    
+    
+}
+.bottom-category-tot{
+    background: #F7F7F7;
+    width:100%;
+
+}
+.top-category p{
+    color:white;
+    font-size: 24px;
+    margin-bottom:0px;
+    padding:15px 60px;
+}
+.bottom-category{
+    margin-left:60px;
+    
+    
+
+}    
+
+
+.Automobiles-a{
+    display:grid;
+    grid-gap: 6px;
+}
+.realstate-a{
+    display:grid;
+    grid-gap: 6px;
+
+}
+.electronics-a{
+    display:grid;
+    grid-gap: 6px;
+    padding-bottom: 300px;
+}
+
+ a{
+    text-decoration:none;
+    color:black;
+    
+}
+.electronics p{
+    margin-bottom:12px;
+    padding-top:19px;
+    font-size: 20px;
+    font-weight:600;
+    
+}
+.Automobiles p{
+    margin-bottom:12px;
+    padding-top:19px;
+    font-size: 20px;
+    font-weight:600;
+
+}
+
+.real-estate p{
+    margin-bottom:12px;
+    margin-top: 0px;
+    padding-top:20px;
+    font-size: 20px;
+    font-weight:600;
+
+
+}
