@@ -1,5 +1,10 @@
 @media (max-width: 996px) {
+	
 	.navbar {
+		.navbar {
+		}
+		padding-top: 0%;
+
 		.navbar-brand {
 			.logo {
 				img {
@@ -8,17 +13,18 @@
 				}
 			}
 		}
-        .show{
-            .navbar-element{
-                align-items: flex-start;
-                width: 100vw;
-                a{
-                    .Ads{
-                        margin: auto;
-                    }
-                }
-            }
-        }
+		.show {
+			.navbar-element {
+				align-items: flex-start;
+				width: 100vw;
+                justify-content: flex-start !important;
+				a {
+					.Ads {
+						margin: auto;
+					}
+				}
+			}
+		}
 		.navbar-toggler {
 			padding: 0%;
 			background-color: red;
@@ -36,16 +42,16 @@
 			flex-direction: column;
 			input {
 				width: 90vw;
-                padding: 0px 8px;
+				padding: 0px 8px;
 			}
 		}
 		.search-button {
 			text-align: center;
-            display: flex;
-            justify-content: center;
+			display: flex;
+			justify-content: center;
 			button {
 				width: 90vw !important;
-                margin-right: 0%;
+				margin-right: 0%;
 			}
 		}
 	}
@@ -76,15 +82,15 @@
 						}
 					}
 					.card-details {
-                        flex-direction: column;
-                        height: auto;
+						flex-direction: column;
+						height: auto;
 						h5 {
-                            font-size: 16px;
+							font-size: 16px;
 							width: auto;
 						}
-                        p{
-                            font-size: 16px;
-                        }
+						p {
+							font-size: 16px;
+						}
 					}
 				}
 			}
@@ -120,8 +126,11 @@
 	}
 	.footer {
 		.footer-container {
-			gap: 50px;
+			gap: 20px;
 			flex-direction: column;
+			.find-us-on {
+				height: auto;
+			}
 		}
 	}
 }

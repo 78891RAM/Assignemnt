@@ -26,7 +26,7 @@ const NavBar = () => {
 			</div>
 			<div className="ad-container"></div> */}
 			<Navbar bg="light" expand="lg" >
-				<Container className="navbar">
+				<Container className="navbar navnav">
 					<Navbar.Brand href="/">
 						<div className="logo">
 							<img src={logo} />
