@@ -2,13 +2,13 @@ import React from "react";
 import "../Css/Nav.css";
 import { NavLink } from "react-router-dom";
 import "../Scss/help.css";
-import Navbar from "../Component/Navbar";
+import NavBar from "../Component/Navbar";
 import Footer from "../Component/footer";
 const Help = () => {
 	console.log("help");
 	return (
 		<>
-    <Navbar />
+    <NavBar />
 			<section className="page-section" id="about">
 				<div className="container">
 					<div className="text-center">

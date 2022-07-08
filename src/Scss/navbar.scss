@@ -1,0 +1,39 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	.navbar-toggler {
+		// transition: ;
+		transition: box-shadow 0s ease-in-out;
+	}
+	#basic-navbar-nav {
+		width: 100%;
+		.navbar-element {
+			.navbar-comp {
+				width: auto;
+			}
+		}
+	}
+	.show {
+		.navbar-element {
+			background-color: black;
+			flex-direction: column;
+			height: 100vh;
+			z-index: 1000000;
+			position: absolute;
+			width: 100%;
+			justify-content: flex-start;
+
+			align-items: center;
+			a {
+				align-items: center;
+				display: flex;
+			}
+			.navbar-comp {
+				display: flex;
+				flex-direction: column;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 600px) {
+}

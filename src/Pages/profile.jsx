@@ -3,7 +3,7 @@ import { Container, Nav } from "react-bootstrap";
 import "../Scss/profile.scss";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/scss/image-gallery.scss";
-import Navbar from "../Component/Navbar";
+import NavBar from "../Component/Navbar";
 import "react-image-gallery/styles/css/image-gallery.css";
 import Footer from "../Component/footer";
 function SellerProfile() {
@@ -44,7 +44,7 @@ function SellerProfile() {
 
 	return (
 		<>
-			<Navbar />
+			<NavBar />
 
 			<Container className="">
 				<ImageGallery

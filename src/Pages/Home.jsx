@@ -5,7 +5,7 @@ import Category from "../Component/Categories";
 import Search from "../Component/Search";
 import Footer from "../Component/footer.jsx";
 import Cards from "../Component/Cards.jsx";
-
+import "../Scss/res.scss"
 const Home = () =>{
 
     

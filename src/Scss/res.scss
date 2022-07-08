@@ -1,0 +1,102 @@
+@media (max-width: 996px) {
+	.navbar {
+		.navbar-brand {
+			.logo {
+				img {
+					width: 100px;
+					height: 50px;
+				}
+			}
+		}
+		.navbar-toggler {
+			padding: 0%;
+			background-color: red;
+			margin-top: 0px;
+		}
+	}
+	.Search-container {
+		margin-top: 50px;
+		flex-direction: column;
+		height: auto;
+		position: relative;
+		background-color: transparent;
+		.searchbars {
+			display: flex;
+			flex-direction: column;
+			input {
+				width: auto;
+			}
+		}
+		.search-button {
+			text-align: center;
+		}
+	}
+	.card-container {
+		width: 100%;
+		margin: auto;
+		height: auto;
+		float: none;
+		padding: 10px;
+		.card-hold {
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+			width: auto;
+			a {
+				width: auto;
+				max-width: 300px;
+
+				.card {
+					width: auto;
+					max-width: 300px;
+					.img-holder {
+						img {
+							width: 100%;
+							max-width: 300px;
+						}
+					}
+					.card-details {
+						h5 {
+							width: auto;
+						}
+					}
+				}
+			}
+		}
+	}
+	.Category-container {
+		margin: auto;
+		display: none;
+	}
+	.des-product-section {
+		flex-direction: column;
+		.details-comments {
+			.details-product {
+				width: auto !important;
+            .m-4{
+                .addedon-time-share-btn{
+                    height: 80px;
+                }
+            }
+			}
+            .des-comment-sec{
+                .header-comment-des{
+                width: auto !important;
+
+                }
+                width: auto !important;
+            }
+		}
+        .user-map-sec{
+            .loc-map-sec {
+                width: auto !important;
+            }
+        }
+	}
+	.footer {
+		.footer-container {
+			gap: 50px;
+			flex-direction: column;
+		}
+	}
+}
